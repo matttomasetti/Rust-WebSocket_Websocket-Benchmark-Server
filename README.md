@@ -11,7 +11,7 @@ The benchmarking client can be found [here](https://hub.docker.com/repository/do
 
 ## Quick Set-Up
 ```
-docker run -p 8080:8080 mtomasetti/rust-websocket_websocket-benchmark-client
+docker run -p 8080:8080 mtomasetti/rust-websocket_websocket-benchmark-server
 ```
 That's it! The websocket server will automatically start on **port 8080**
 

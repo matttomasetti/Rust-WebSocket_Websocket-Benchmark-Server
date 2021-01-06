@@ -25,7 +25,8 @@ RUN cd /home/websocket \
     && source /root/.cargo/env \
 
 # Build project
-RUN cargo build
+RUN cd /home/websocket \
+    && cargo build
 
     
 EXPOSE 8080
